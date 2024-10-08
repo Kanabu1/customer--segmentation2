@@ -30,11 +30,7 @@ This  Notebook demonstrates customer segmentation using the K-Means clustering a
 
 
 
-## Usage
 
-1. Install the required libraries.
-2. Download the "Online Retail.xlsx" dataset and place it in the same directory as the notebook.
-3. Open the notebook and execute the cells sequentially.
 
 
 ## Conclusion
