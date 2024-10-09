@@ -13,6 +13,8 @@ This  Notebook demonstrates customer segmentation using the K-Means clustering a
     - Handles missing values by removing rows with missing 'CustomerID'.
     - Performs feature engineering to create relevant features for segmentation, including:
         - Invoice frequency (monthly, yearly, daily, hourly).
+        - recency
+        - Total amount
         - Time between purchases.
         - Total invoice amounts.
         - Customer activity (invoice count).
@@ -23,16 +25,21 @@ This  Notebook demonstrates customer segmentation using the K-Means clustering a
     - Uses the K-Means clustering algorithm to group customers.
     - Determines the optimal number of clusters using the Elbow method.
     - Evaluates the clustering performance using the Silhouette score.
-4. **Cluster Visualization:**
-    - Employs Principal Component Analysis (PCA) to reduce the dimensionality of the data for visualization purposes.
-    - Creates a scatter plot to visualize the clusters in a two-dimensional space.
+4. **Cluster Analysis:**
+   - Visualizing the clusters using PCA and scatter plots.
+   - Analyzing cluster profiles based on mean values of key features.
+   - Investigating feature distributions within clusters using box plots.
 
 
+## Results
 
+- The analysis identifies distinct customer segments with varying purchasing patterns.
+- The clusters are visualized and their characteristics are explored.
+- The notebook provides insights into customer behavior and potential strategies for targeted marketing.
 
 
 
 
 ## Conclusion
 
-This notebook provides a basic framework for customer segmentation using K-Means clustering. Further analysis and interpretation of the clusters can be performed to gain insights into customer behavior and develop targeted marketing strategies.
+This notebook provides a basic framework for customer segmentation using K-Means clustering.
