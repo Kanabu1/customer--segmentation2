@@ -23,7 +23,7 @@ This  Notebook demonstrates customer segmentation using the K-Means clustering a
     - Applies StandardScaler to normalize the selected features, ensuring that they have zero mean and unit variance.
 3. **Model Building and Evaluation:**
     - Uses the K-Means clustering algorithm to group customers.
-    - Determines the optimal number of clusters using the Elbow method.
+    - Determines the optimal number of clusters using the Elbow method. in this plot the elbow appears to be around 4 clusters making  4 a good choice for the number of clusters. 
     - Evaluates the clustering performance using the Silhouette score.
 4. **Cluster Analysis:**
    - Visualizing the clusters using PCA and scatter plots.
